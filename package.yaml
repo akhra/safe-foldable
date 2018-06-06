@@ -1,0 +1,20 @@
+name:         safe-foldable
+version:      0.1.0.0
+synopsis:     Safe wrappers for null-partial Foldable operations
+github:       tejon/safe-foldable
+homepage:     https://github.com/tejon/safe-foldable#readme
+license:      MIT
+license-file: LICENSE
+author:       Theodore Lief Gannon
+maintainer:   tanuki@gmail.com
+copyright:    2018 Theodore Lief Gannon
+
+extra-source-files:
+- README.md
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs:  src
+  dependencies: base >= 4.7 && < 5
